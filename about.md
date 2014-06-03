@@ -3,9 +3,16 @@ layout: page
 title: About
 permalink: /about/
 ---
+![Profile](https://avatars3.githubusercontent.com/u/1941113?s=460 =240x)
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Seung-won Kim
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+### Career
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+####2014
+iOS Developer at [Anbado Video]
+
+####2007-2014
+Computer Science Engineering At Inha University
+
+[Anbado Video]: http://anbado.com
