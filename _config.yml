@@ -1,5 +1,5 @@
 name: Flex
-markdown: redcarpet
+markdown: kramdown
 highlighter: true
 encoding: UTF-8
 
