@@ -2,12 +2,15 @@ name: Flex
 markdown: kramdown
 highlighter: true
 encoding: UTF-8
+timezone: Asia/Seoul
+future: true
 
 # tags
 collections:
   tags:
     output: true
     permalink: /tags/:path/
+
 defaults:
   - scope:
       path: ''

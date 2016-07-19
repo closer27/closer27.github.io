@@ -1,4 +1,4 @@
 ---
 name: daily
-title: daily
+title: 'daily'
 ---
