@@ -11,7 +11,7 @@ layout: default
   Tag:
     {% for tag in page.tags %}
         <a href="{{ site.baseurl }}/tags/{{ tag }}" title="{{ tag }}"
-           class="tag tag-{{ tag }}">{{ tag }}</a>
+           class="tag tag-{{ tag }}">#{{ tag }}</a>
     {% endfor %}
 </p>
 
