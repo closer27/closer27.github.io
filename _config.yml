@@ -1,25 +1,22 @@
-
 # Dependencies
 markdown:         kramdown
-highlighter: true
-encoding: UTF-8
-timezone: Asia/Seoul
-future: true
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Lanyon
-tagline:          'A Jekyll theme'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://lanyon.getpoole.com
+title:            어느 개발자의 한적한 공간
+tagline:          '살아나가면서 저지른 이야기'
+description:      '살아나가면서 저지른 이야기'
+url:              http://closer27.github.io
+highlighter:      rouge
+encoding:         UTF-8
+timezone:         Asia/Seoul
+future:           true
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
+  name:           'Seungwon Kim'
+  url:            http://closer27.github.io
 
 # Gem
 gems: [jekyll-paginate]
@@ -27,10 +24,10 @@ paginate: 5
 paginate_path: "page:num"
 
 # Custom vars
-version:          1.0.0
+version:          0.9.0
 
 github:
-  repo:           https://github.com/poole/lanyon
+  repo:           https://github.com/closer27
 
 # Tags
 collections:
