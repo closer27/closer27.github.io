@@ -1,20 +1,29 @@
 ---
 layout: post
-title: Example content
+title: 마크다운 예시 (수정 중)
+tags: [markdown, blog, tip, jekyll]
 ---
 
+### 메세지 타입
 
+\<div class="message"\>
+  메세지 내용
+\</div\>
 <div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  헬로! 이 블로그 예제는 이 테마에서 지원하는 몇가지 HTML 컨텐츠 타입을 보여줍니다.
 </div>
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+\<a href="#"\><a href="#"> 하이퍼링크 태그입니다 </a>\</a\>
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+*\* 이탤릭체 \**
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+> \> 인용구
 
-## Inline HTML elements
+\*\* **강조** \*\*
+
+---
+
+### HTML 요소
 
 HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
@@ -35,6 +44,14 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
 
+{% highlight Objective-C %}
+UIViewController *viewController;
+{% endhighlight %}
+
+{% highlight Swift %}
+var a: String = "Hello"
+{% endhighlight %}
+
 {% highlight js %}
 // Example can be run directly in your JavaScript console
 
@@ -47,6 +64,8 @@ adder(2, 6);
 {% endhighlight %}
 
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+
+---
 
 ### Lists
 
@@ -119,4 +138,8 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 
 -----
 
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+### 그밖에
+
+Escape Markdown Character
+
+\* \# \/ \( \) \[ \] \< \>와 같은 글자들은 `\`를 앞에 붙이면 마크다운 안에서도 사용할 수 있습니다.
