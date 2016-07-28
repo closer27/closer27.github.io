@@ -1,0 +1,4 @@
+---
+name: IBOutlet
+title: IBOutlet
+---

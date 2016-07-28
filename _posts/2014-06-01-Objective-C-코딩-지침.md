@@ -2,7 +2,7 @@
 layout: post
 title: "Objective-C 코딩 지침"
 date: 2014-06-01
-tags: [ios, objective-c, coding, tip]
+tags: [iOS, objective-c, coding, tip]
 ---
 
 - 단어 조합 규칙
