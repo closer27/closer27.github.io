@@ -3,6 +3,7 @@ layout: post
 title: "Effective Objective-C"
 date: 2014-09-09
 tags: [iOS, Objective-C, coding, tip]
+comment: yes
 ---
 
 ### 오브젝티브-C의 기원과 친숙해져라

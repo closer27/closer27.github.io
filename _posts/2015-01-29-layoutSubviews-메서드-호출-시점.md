@@ -3,6 +3,7 @@ layout: post
 title: "UIView의 layoutSubviews 메서드 호출 시점"
 date: 2015-01-29
 tags: [iOS, UIView]
+comment: yes
 ---
 
 UIView 의 크기가 변경되면, 크기가 변경된 UIView 의 서브뷰들은 위치와 크기가 조정되어야 한다. UIView는 이를 위해 자동과 수동으로 UIView의 layout을 조정하는 방법을 제공한다.
