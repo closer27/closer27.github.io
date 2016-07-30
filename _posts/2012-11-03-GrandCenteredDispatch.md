@@ -3,6 +3,7 @@ layout: post
 title: "Grand Centered Dispatch(GCD) 개요"
 date: 2012-11-03
 tags: [iOS]
+comment: yes
 ---
 
 - 다중 스레드 프로그래밍

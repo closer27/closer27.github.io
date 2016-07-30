@@ -2,6 +2,7 @@
 layout: post
 title: 마크다운 예시 (수정 중)
 tags: [markdown, blog, tip, jekyll]
+comment: yes
 ---
 
 ### 메세지 타입
