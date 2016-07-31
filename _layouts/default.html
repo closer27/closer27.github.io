@@ -44,5 +44,9 @@
         }, false);
       })(document);
     </script>
+
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
   </body>
 </html>
