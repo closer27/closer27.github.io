@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 56em) {
   .container {
-    max-width: 38rem;
+    max-width: 48rem;
   }
 }
 
@@ -449,9 +449,14 @@ a.pagination-item:hover {
  }
  .theme-base-27 .container a,
  .theme-base-27 .sidebar-toggle,
- .theme-base-27 .related-posts li a:hover {
+ .theme-base-27 .related-posts li {
    color: #3190DE;
  }
+
+.theme-base-27 a:hover {
+  color: #52B1FF;
+  text-decoration: none;
+}
 
 /* Red */
 .theme-base-08 .sidebar,
@@ -573,3 +578,23 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+
+/*
+ * Tag
+ */
+
+.tag {
+  color: #FFF!important;
+  background-color: #3190DE;
+  border-radius: 2px;
+  display: inline-block;
+  font: 11px/13px Helvetica, sans-serif!important;
+  margin: 0px 3px 3px 0px;
+  padding: 5px 7px 4px;
+  position: relative;
+ }
+
+ .tag:hover {
+   background-color: #52B1FF;
+   text-decoration: none;
+  }
