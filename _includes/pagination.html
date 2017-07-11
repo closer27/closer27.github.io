@@ -18,8 +18,12 @@
                 {% assign last = paginator.total_pages %}
             {% endif %}
         {% endif %}
-        {% if paginator.previous_page %}
-            <li id="page-prev"><a href="/page/{{ paginator.previous_page }}"><span class="sr-only"><</span></a>
+        {% assign previous_page = first | minus: 5 %}
+        {% if previous_page > 1 %}
+            <li id="page-prev"><a href="/page/{{ first | minus: 5 }}"><span class="sr-only"><</span></a>
+            </li>
+        {% elsif previous_page == 1 %}
+            <li id="page-prev"><a href="/"><span class="sr-only"><</span></a>
             </li>
         {% else %}
             <li id="page-prev" class="disabled"><span class="sr-only"><</span></li>
@@ -34,8 +38,8 @@
                             href="{{ site.baseurl }}{{ site.paginate_path | replace: ':num', p }}">{{ p }}</a></li>
             {% endif %}
         {% endfor %}
-        {% if paginator.next_page %}
-            <li id="page-next"><a href="/page/{{ paginator.next_page }}"><span class="sr-only">></span></a>
+        {% if last < paginator.total_pages %}
+            <li id="page-next"><a href="/page/{{ last | plus: 1 }}"><span class="sr-only">></span></a>
             </li>
         {% else %}
             <li id="page-next" class="disabled"><span class="sr-only">></span></li>
