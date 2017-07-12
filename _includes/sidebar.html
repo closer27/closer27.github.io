@@ -30,6 +30,17 @@
   </nav>
 
   <div class="sidebar-item">
+    {% for tag in site.tags %}
+      {% assign size = tag.tags | size | times: 100 | divided_by: site.tags.size | plus: 70 %}
+      <span style="font-size: {{ size }}%">
+        <a href="/tags/{{ tag.slug }}">
+          <span>{{ tag.name }}({{ tag.tags }})</span>
+        </a> &nbsp;&nbsp;{% unless forloop.last %}{% endunless %}
+      </span>
+    {% endfor %}
+  </div>
+
+  <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
