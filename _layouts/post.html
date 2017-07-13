@@ -8,11 +8,10 @@ layout: default
   {{ content }}
 </div>
 <p>
-  Tag:
-    {% for tag in page.tags %}
-        <a href="{{ site.baseurl }}/tags/{{ tag }}" title="{{ tag }}"
-           class="tag tag-{{ tag }}">#{{ tag }}</a>
-    {% endfor %}
+  {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tags/{{ tag }}" title="{{ tag }}"
+         class="tag tag-{{ tag }}">#{{ tag }}</a>
+  {% endfor %}
 </p>
 {% if page.comment %}
   <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="650" data-numposts="5"></div>

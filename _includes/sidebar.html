@@ -29,13 +29,13 @@
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
   </nav>
 
-  <div class="sidebar-item">
+  <span class="sidebar-nav-item" style="color: #fff">Tag</span>
+  <div class="sidebar-item" style="padding-top: 0">
     {% for tag in site.tags %}
-      {% assign size = tag.tags | size | times: 100 | divided_by: site.tags.size | plus: 70 %}
-      <span style="font-size: {{ size }}%">
-        <a href="/tags/{{ tag.slug }}">
-          <span>{{ tag.name }}({{ tag.tags }})</span>
-        </a> &nbsp;&nbsp;{% unless forloop.last %}{% endunless %}
+      <span>
+        <a href="/tags/{{ tag.slug }}" class="tag-reverse">
+          <span>{{ tag.name }}</span>
+        </a>{% unless forloop.last %}{% endunless %}
       </span>
     {% endfor %}
   </div>
