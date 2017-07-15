@@ -8,7 +8,7 @@
             {% if remainder != 0 %}
                 {% assign first = paginator.page | divided_by: 5 | floor | times: 5 | plus: 1 %}
             {% else %}
-                {% assign first = paginator.page | divided_by: 5 %}
+                {% assign first = paginator.page | minus: 1 | divided_by: 5 | floor | times: 5 | plus: 1 %}
             {% endif %}
             {% if first < 1 %}
                 {% assign first = 1 %}
