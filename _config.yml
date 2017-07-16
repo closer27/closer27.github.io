@@ -18,8 +18,8 @@ author:
   name:           'Seungwon Kim'
   url:            http://closer27.github.io
 
-# Gem
-gems: [jekyll-paginate]
+# Plugins
+plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: "/page/:num/"
 

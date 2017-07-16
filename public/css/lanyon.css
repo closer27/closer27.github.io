@@ -144,8 +144,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: -14rem;
-  width: 14rem;
+  left: -18rem;
+  width: 18rem;
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -163,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Sidebar content */
 .sidebar a {
+  font-size: 16px;
   font-weight: normal;
   color: #fff;
 }
@@ -294,9 +295,9 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(14rem);
-      -ms-transform: translateX(14rem);
-          transform: translateX(14rem);
+  -webkit-transform: translateX(18rem);
+      -ms-transform: translateX(18rem);
+          transform: translateX(18rem);
 }
 
 
@@ -592,10 +593,11 @@ a.pagination-item:hover {
   background-color: #3190DE;
   border-radius: 2px;
   display: inline-block;
-  font: 11px/13px Helvetica, sans-serif!important;
+  /*font: 11px/13px Helvetica, sans-serif!important;*/
   margin: 0px 3px 3px 0px;
   padding: 5px 7px 4px;
   position: relative;
+  vertical-align: bottom;
 }
 .tag:hover {
    background-color: #52B1FF;
@@ -669,4 +671,10 @@ a.pagination-item:hover {
 #page-prev.disabled,
 #page-next.disabled {
   color: #808080;
+}
+
+/* icons */
+
+.icon {
+  font-size: large;
 }

@@ -5,7 +5,23 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+    <div style="margin: 0 auto; width: 190px;">
+      <a href="mailto:closer527@gmail.com" style="margin-right: 7px; font-size: 24px;">
+        <i class="fa fa-envelope-square" aria-hidden="true"></i>
+      </a>
+      <a href="https://github.com/closer27" target="_blank" style="margin: 0 7px; font-size: 24px;">
+        <i class="fa fa-github-square" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/closer27" target="_blank" style="margin: 0 7px; font-size: 24px;">
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.facebook.com/closer27" target="_blank" style="margin: 0 7px; font-size: 24px;">
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+      </a>
+      <a href="https://500px.com/closer27" target="_blank" style="margin: 0 7px; font-size: 24px;">
+        <i class="fa fa-500px" aria-hidden="true"></i>
+      </a>
+    </div>
   </div>
 
   <nav class="sidebar-nav">
@@ -28,17 +44,6 @@
     <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
   </nav>
-
-  <span class="sidebar-nav-item" style="color: #fff">Tag</span>
-  <div class="sidebar-item" style="padding-top: 0">
-    {% for tag in site.tags %}
-      <span>
-        <a href="/tags/{{ tag.slug }}" class="tag-reverse">
-          <span>{{ tag.name }}</span>
-        </a>{% unless forloop.last %}{% endunless %}
-      </span>
-    {% endfor %}
-  </div>
 
   <div class="sidebar-item">
     <p>
