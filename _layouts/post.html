@@ -7,12 +7,24 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
-<p>
-  {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tags/{{ tag }}" title="{{ tag }}"
-         class="tag tag-{{ tag }}">#{{ tag }}</a>
-  {% endfor %}
-</p>
+<div>
+  <p>
+    <span style="margin-right: 10px">
+      {% for category in page.categories %}
+      <a href="{{ site.baseurl }}/categories/{{ category }}" title="{{ category }}" style="margin-left: auto; margin-right: 0">
+        <i class="fa fa-folder-open-o" aria-hidden="true" style="font-size: 16px"></i>
+        {{ category }}</a>
+      {% endfor %}
+    </span>
+    <span>
+      {% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/tags/{{ tag }}" title="{{ tag }}"
+             class="tag tag-{{ tag }}">#{{ tag }}</a>
+      {% endfor %}
+    </span>
+  </p>
+</div>
+
 {% if page.comment %}
   <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="650" data-numposts="5"></div>
 {% endif %}

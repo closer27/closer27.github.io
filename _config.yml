@@ -34,6 +34,9 @@ collections:
   tags:
     output: true
     permalink: /tags/:path/
+  categories:
+    output: true
+    permalink: /categories/:path/
 
 defaults:
   - scope:

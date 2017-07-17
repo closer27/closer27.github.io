@@ -2,6 +2,7 @@
 layout: post
 title: "앵귤러 컴포넌트 생명 주기 - Lifecycle Hooks"
 date: 2017-07-06
+categories: frontend
 tags:
 - angular
 - lifecycle
