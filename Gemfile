@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'jekyll-paginate'
+gem 'jekyll-timeago'
 gem 'kramdown'
 gem 'coderay'
 gem 'rake'
