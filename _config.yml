@@ -19,9 +19,31 @@ author:
   url:            http://closer27.github.io
 
 # Plugins
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-timeago]
 paginate: 5
 paginate_path: "/page/:num/"
+
+# Relative time
+jekyll_timeago:
+  depth: 1
+  today: 'today'
+  yesterday: 'yesterday'
+  tomorrow: 'tomorrow'
+  and: 'and'
+  suffix: 'ago'
+  prefix: ''
+  suffix_future: 'in'
+  prefix_future: ''
+  years: 'years'
+  year: 'year'
+  months: 'months'
+  month: 'month'
+  weeks: 'weeks'
+  week: 'week'
+  days: 'days'
+  day: 'day'
+
+exclude: [vendor]
 
 # Custom vars
 version:          0.9.0
