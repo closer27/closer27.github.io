@@ -9,10 +9,10 @@ layout: default
 </div>
 <div>
   <p>
-    <span style="margin-right: 10px">
+    <span class="category">
       {% for category in page.categories %}
-      <a href="{{ site.baseurl }}/categories/{{ category }}" title="{{ category }}" style="margin-left: auto; margin-right: 0">
-        <i class="fa fa-folder-open-o" aria-hidden="true" style="font-size: 16px"></i>
+      <a href="{{ site.baseurl }}/categories/{{ category }}" title="{{ category }}">
+        <i class="fa fa-folder-open-o" aria-hidden="true"></i>
         {{ category }}</a>
       {% endfor %}
     </span>

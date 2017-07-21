@@ -3,37 +3,43 @@ layout: page
 title: Articles
 ---
 
-
-<h2>Tag</h2>
 <div>
-{% for tag in site.tags %}
-  {% assign tag_size = site.posts | where_exp: 'post', 'post.tags contains tag.name' | size %}
-  <span>
-    <a href="/tags/{{ tag.slug }}" class="tag tag-{{ tag.name }}" style="font-size: {{ tag_size | times: 100 | divided_by: site.tags.size | plus: 70  }}% !important;">
-      <span>{{ tag.name }}</span>
-      <span>
-        ({{ tag_size }})
-      </span>
-    </a>
-  </span>
-{% endfor %}
+  <h2>Categories</h2>
+
+  {% for category in site.categories %}
+  <div class="category-container">
+    <div>
+    <a href="/categories/{{ category.name }}">
+      <img src="{{ category.image }}" class="category-image" style="background-position: 50% 50% !important;"></a>
+    </div>
+    <div class="category-content">
+      <h2>{{ category.title }}</h3>
+      {% assign recent_post = site.posts | where_exp: 'post', 'post.categories contains category.name' | first %}
+      {% if recent_post %}
+      <div style="margin-top: 30px;">
+        <span>최신 글</span>
+        <div>
+          <p class="category-title-brief">{{ recent_post.title }}</p>
+          <span style="font-size: 12px;">{{ recent_post.date | date_to_long_string }}</span>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
 </div>
 
-<h2>Categories</h2>
-
-{% for category in site.categories %}
-<div class="category-container">
-  <div>
-  <a href="/categories/{{ category.name }}">
-    <img src="{{ category.image }}" class="category-image" style="background-position: 50% 50% !important;"></a>
-  </div>
-  <div class="category-content">
-    <h3>{{ category.title }}</h3>
-    <h6>{{ category.description }}</h6>
-    {% assign recent_post = site.posts | where_exp: 'post', 'post.categories contains category.name' | first %}
+<div>
+  <h2>Tag</h2>
+  {% for tag in site.tags %}
+    {% assign tag_size = site.posts | where_exp: 'post', 'post.tags contains tag.name' | size %}
     <span>
-      {{ recent_post.date | date: "%Y-%m-%d %H:%M" }}
+      <a href="/tags/{{ tag.slug }}" class="tag tag-{{ tag.name }}" style="font-size: {{ tag_size | times: 100 | divided_by: site.tags.size | plus: 70  }}% !important;">
+        <span>{{ tag.name }}</span>
+        <span>
+          ({{ tag_size }})
+        </span>
+      </a>
     </span>
-  </div>
+  {% endfor %}
 </div>
-{% endfor %}

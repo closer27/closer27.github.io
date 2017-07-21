@@ -1,7 +1,8 @@
-<li>
+<li class="item">
     <a href="{{ post.url }}">
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | strip_html | truncatewords: 75 }}</p>
+        <span class="item_title">{{ post.title }}</span>
+        <h6 class="item_excerpt">{{ post.excerpt | strip_html | truncatewords: 75 }}</h6>
+        <h6 class="item_date">{{ post.date | timeago }}</h6>
     </a>
-    <!--<div class="clearfix"></div>-->
 </li>
+<hr>
