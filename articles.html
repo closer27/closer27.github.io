@@ -8,19 +8,23 @@ title: Articles
 
   {% for category in site.categories %}
   <div class="category-container">
-    <div>
-    <a href="/categories/{{ category.name }}">
-      <img src="{{ category.image }}" class="category-image" style="background-position: 50% 50% !important;"></a>
-    </div>
-    <div class="category-content">
-      <h2>{{ category.title }}</h3>
+    <div class="category-content" style="border: solid 1px #E5E5E5; padding: 20px;">
+      <a href="{{ category.url }}" style="text-decoration: none; color: #313131">
+        <span class="sub-headline"><i class="fa fa-folder-open-o" aria-hidden="true"></i> {{ category.title }}</span>
+        <span class="description">— {{ category.description }}</span>
+      </a>
       {% assign recent_post = site.posts | where_exp: 'post', 'post.categories contains category.name' | first %}
       {% if recent_post %}
-      <div style="margin-top: 30px;">
-        <span>최신 글</span>
+      <div style="margin-top: 10px">
+        <span class="description">최근 글</span>
         <div>
-          <p class="category-title-brief">{{ recent_post.title }}</p>
-          <span style="font-size: 12px;">{{ recent_post.date | date_to_long_string }}</span>
+          <span class="category-title-brief">
+            <span>— </span>
+            <a href={{ recent_post.url }}>
+              {{ recent_post.title }}
+              <span class="description"> · {{ recent_post.date | timeago }}</span>
+            </a>
+          <span style="font-size: 12px;"></span>
         </div>
       </div>
       {% endif %}
@@ -28,7 +32,7 @@ title: Articles
   </div>
   {% endfor %}
 </div>
-
+<hr>
 <div>
   <h2>Tag</h2>
   {% for tag in site.tags %}
