@@ -2,7 +2,7 @@
     <a href="{{ post.url }}">
         <span class="item_title">{{ post.title }}</span>
         <h6 class="item_excerpt">{{ post.excerpt | strip_html | truncatewords: 75 }}</h6>
-        <h6 class="item_date">{{ post.date | timeago }}</h6>
+        <h6 class="item_date">{{ post.date | date_to_string }}</h6>
     </a>
 </li>
 <hr>

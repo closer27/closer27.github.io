@@ -616,7 +616,6 @@ a.pagination-item:hover {
   margin: 0px 3px 3px 0px;
   padding: 5px 7px 4px;
   position: relative;
-  vertical-align: middle;
 }
 .tag:hover {
    background-color: #52B1FF;
