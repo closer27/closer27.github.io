@@ -2,6 +2,7 @@
 layout: post
 title: "Angular의 동작원리 - 컴파일"
 date: 2017-06-30
+categories: frontend
 tags:
 - angular
 - compile

@@ -2,6 +2,7 @@
 layout: post
 title: "오토레이아웃을 사용할때 버튼 사이즈 강제로 변경하기"
 date: 2015-05-19
+categories: ios
 tags: [iOS, Autolayout, Autoresizing, size, tip]
 comment: yes
 ---

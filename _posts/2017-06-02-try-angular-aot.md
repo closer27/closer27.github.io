@@ -2,6 +2,7 @@
 layout: post
 title: "angular AOT 컴파일시 몇가지 문제상황과 해결 방법"
 date: 2017-06-02
+categories: frontend
 tags: [angular, AOT, JIT, troubleshooting, webpack]
 comment: yes
 ---

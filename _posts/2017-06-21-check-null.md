@@ -2,6 +2,7 @@
 layout: post
 title: "typescript에서 null 체크의 기본"
 date: 2017-06-21
+categories: frontend
 tags: [typescript, validation]
 comment: yes
 ---

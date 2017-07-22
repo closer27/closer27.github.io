@@ -2,5 +2,5 @@
 layout: category
 title: iOS
 name: ios
-description: iOS 개발 관련 팁, trobleshooting
+description: iOS, Swift, Objective-c 개발 이야기
 ---

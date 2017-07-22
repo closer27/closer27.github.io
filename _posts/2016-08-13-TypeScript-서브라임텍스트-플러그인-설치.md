@@ -2,6 +2,7 @@
 layout: post
 title: "Sublime Text의 Package Control을 통한 TypeScript 플러그인 설치"
 date: 2016-08-13
+categories: frontend
 tags: [typescript, sublimetext, plugin]
 comment: yes
 ---

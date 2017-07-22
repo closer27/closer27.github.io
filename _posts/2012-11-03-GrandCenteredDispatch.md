@@ -2,6 +2,7 @@
 layout: post
 title: "Grand Centered Dispatch(GCD) 개요"
 date: 2012-11-03
+categories: ios
 tags: [iOS]
 comment: yes
 ---

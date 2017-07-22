@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Objective-C 코딩 지침"
+categories: ios
 date: 2014-06-01
 tags: [iOS, objective-c, coding, tip]
 comment: yes

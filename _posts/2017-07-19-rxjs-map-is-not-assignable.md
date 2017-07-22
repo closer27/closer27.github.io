@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "returned expression type Map<any> is not assignable to type Observable<boolean> 에러가 날 때"
-date: 2017-07-19
+date: 2017-07-19 21:11:27 +0900
 categories: frontend
 tags:
 - angular
@@ -56,4 +56,4 @@ Observable로 감싸주지 않아서 그런가싶어서 Observable.of()로 감�
 -
 Referencing
 
-: StackOverflow. (2017). “Observable.map - Supplied parameter does not match any signature of call target”, [online] Available at: [https://stackoverflow.com/questions/42759006/observable-map-supplied-parameter-does-not-match-any-signature-of-call-target](https://stackoverflow.com/questions/42759006/observable-map-supplied-parameter-does-not-match-any-signature-of-call-target) [Accessed July 19, 2017]. 
+: StackOverflow. (2017). “Observable.map - Supplied parameter does not match any signature of call target”, [online] Available at: [https://stackoverflow.com/questions/42759006/observable-map-supplied-parameter-does-not-match-any-signature-of-call-target](https://stackoverflow.com/questions/42759006/observable-map-supplied-parameter-does-not-match-any-signature-of-call-target) [Accessed July 19, 2017].

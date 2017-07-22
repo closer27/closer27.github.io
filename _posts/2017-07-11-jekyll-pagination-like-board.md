@@ -2,6 +2,7 @@
 layout: post
 title: "jekyll 블로그 pagination 방식을 게시판 형태로 변경하기"
 date: 2017-07-11
+categories: note
 tags:
 - jekyll
 - pagination

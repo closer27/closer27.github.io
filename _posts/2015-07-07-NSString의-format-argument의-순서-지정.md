@@ -2,6 +2,7 @@
 layout: post
 title: "NSString의 format argument 순서를 지정하는 방법"
 date: 2015-05-19
+categories: ios
 tags: [iOS, NSString, argument, tip]
 comment: yes
 ---

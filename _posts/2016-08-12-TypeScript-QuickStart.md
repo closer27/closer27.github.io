@@ -2,6 +2,7 @@
 layout: post
 title: "TypeScript Quick Start"
 date: 2016-08-12
+categories: frontend
 tags: [typescript, quickstart]
 comment: yes
 ---

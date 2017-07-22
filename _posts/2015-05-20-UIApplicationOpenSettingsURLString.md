@@ -2,6 +2,7 @@
 layout: post
 title: "UIApplicationOpenSettingsURLString를 이용해 앱에서 설정 앱으로 전환 시키기"
 date: 2015-05-19
+categories: ios
 tags: [iOS, setting, tip]
 comment: yes
 ---

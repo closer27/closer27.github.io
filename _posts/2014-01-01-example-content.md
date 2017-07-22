@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 마크다운 예시 (수정 중)
+categories: note
 tags: [markdown, blog, tip, jekyll]
 comment: yes
 ---

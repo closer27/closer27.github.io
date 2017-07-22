@@ -2,6 +2,7 @@
 layout: post
 title: "UIView의 layoutSubviews 메서드 호출 시점"
 date: 2015-01-29
+categories: ios
 tags: [iOS, UIView]
 comment: yes
 ---

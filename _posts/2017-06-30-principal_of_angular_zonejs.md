@@ -2,6 +2,7 @@
 layout: post
 title: "Angular의 동작원리 2 - Zone.js"
 date: 2017-06-30
+categories: frontend
 tags:
 - angular
 - zone.js
