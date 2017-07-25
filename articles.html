@@ -39,7 +39,7 @@ title: Articles
     {% assign tag_size = site.posts | where_exp: 'post', 'post.tags contains tag.name' | size %}
     <a href="/tags/{{ tag.slug }}" class="tag tag-{{ tag.name }}">
       <span style="font-size: {{ tag_size | times: 100 | divided_by: site.tags.size | plus: 70  }}% !important; line-height: initial;">
-        {{ tag.name }} ({{ tag_size }})
+        #{{ tag.name }} ({{ tag_size }})
       </span>
     </a>
   {% endfor %}

@@ -612,7 +612,7 @@ a.pagination-item:hover {
   background-color: #3190DE;
   border-radius: 2px;
   display: inline-block;
-  font: 11px/13px Helvetica, sans-serif!important;
+  font-size: 11px;
   margin: 0px 3px 3px 0px;
   padding: 5px 7px 4px;
   position: relative;
