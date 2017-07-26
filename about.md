@@ -12,8 +12,8 @@ title: About
 
 ### Interests
 
-- Social Media (SNS)
-- Service Plan
+- Social Media
+- Product Design
 - Mobile Apps\' UX ; giving people interesting things.
 - Prototyping: implementing services\' base.
 - Psychology of human
@@ -22,19 +22,19 @@ title: About
 ### Skills
 
 - Primary
- - Mobile: iOS (specific UI/UX, Universal Storyboarding, Video, Camera, Photos, Implementing base SNS structure, Analytics, Bug report, CocoaPods, etc.)
+  - Mobile: iOS (specific UI/UX, Universal Storyboarding, Video, Camera, Photos, Implementing base SNS structure, Analytics, Bug report, CocoaPods, etc.)
+  - Frontend: Angular
 - Secondary
- - Web Frameworks: Flask, Django (for using Restful API)
- - UI Frameworks: QT
- - Languages: Objective-C, Java, C++, Python, Swift
- - Database : SQLite, MySQL
+  - Backend: Flask, Django
+  - Languages: Objective-C, Java, C++, Python, Swift
+  - Database : SQLite, MySQL
 - Tools : Git, GitHub, SVN, Vi, Jira, Slack
 
 ### Career & Activities
 
-2016 Manager, SKplanet
+2016~ Manager, SKplanet
 
-2014-2015 iOS Developer, Mobile UX designer, at Anbado Video (안바도비디오)
+2014-2015 iOS Developer, Product designer, at Anbado Video (안바도비디오)
 
 2012 Mentee, Software Maestro, 3th of., at Ministry of Knowledge Economy (지식경제부)
 
