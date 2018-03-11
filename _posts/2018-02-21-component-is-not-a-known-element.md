@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "<component> is not a known element 에러가 날 때"
+title: "&lt;component&gt; is not a known element 에러가 날 때"
 date: 2018-02-21
 categories: frontend
 tags: [angular, tip]
 comment: yes
 ---
 
-#<component> is not a known element 에러가 날 때
+# &lt;component&gt; is not a known element 에러가 날 때
 
 예를 들어 AppComponent에 TodoListComponent라는 컴포넌트를 child component로써 삽입할 때
 부모 모듈인 AppModule에 TodoListModule를 imports에 추가했는데도
