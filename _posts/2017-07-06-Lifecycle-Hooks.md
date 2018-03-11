@@ -48,6 +48,6 @@ SimpleChanges라는 인자와 함께 전달; SimpleChange 안에는 previousValu
 —
 Referencing
 
-: Angular.io. (2017). Angular Docs. [online] Available at: [https://angular.io/guide/lifecycle-hooks](https://angular.io/guide/lifecycle-hooks) [Accessed 13 Jul. 2017].
-
 : 조우진 (2017), Angular 첫 걸음, 한빛미디어, 서울
+
+: Angular.io. (2017). Angular Docs. [online] Available at: [https://angular.io/guide/lifecycle-hooks](https://angular.io/guide/lifecycle-hooks) [Accessed 13 Jul. 2017].

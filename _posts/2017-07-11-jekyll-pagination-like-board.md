@@ -144,3 +144,8 @@ liquid의 버그인건지는 잘모르겠지만
     { % endif %}
 </ul>
 ```
+
+-
+Referencing
+
+: kakao 기술 블로그. (2017). “kakao 기술 블로그가 GitHub Pages로 간 까닭은”, [online] Available at: [http://tech.kakao.com/2016/07/07/tech-blog-story/](http://tech.kakao.com/2016/07/07/tech-blog-story/) [Accessed July 11, 2017].
