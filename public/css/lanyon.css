@@ -597,6 +597,7 @@ a.pagination-item:hover {
 .category > a {
   margin-left: auto;
   margin-right: 0;
+  color: #3190DE !important;
 }
 
 .category > a > i {
@@ -612,17 +613,17 @@ a.pagination-item:hover {
  */
 
 .tag {
-  color: #FFF!important;
-  background-color: #3190DE;
-  border-radius: 2px;
+  color: ##9a9a9a !important;
+  background-color: #fff;
+  border-radius: 3px;
   display: inline-block;
   font-size: 11px;
-  margin: 0px 3px 3px 0px;
-  padding: 5px 7px 4px;
+  margin: 0px 1px 3px 0px;
+  padding: 2px 6px 2px;
   position: relative;
 }
 .tag:hover {
-   background-color: #52B1FF;
+   background-color: #f2f2f2;
    text-decoration: none;
 }
 
@@ -725,12 +726,12 @@ hr {
 }
 
 .item_title {
-  line-height: 40px;
   font-size: 1.25rem;
 }
 
 .item_excerpt {
   margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 .item_date {

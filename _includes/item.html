@@ -1,6 +1,6 @@
 <li class="item">
     <a href="{{ post.url }}">
-        <span class="item_title">{{ post.title }}</span>
+        <h5 class="item_title">{{ post.title }}</span>
         <h6 class="item_excerpt">{{ post.excerpt | strip_html | truncatewords: 75 }}</h6>
         <h6 class="item_date">{{ post.date | date: '%Y.%m.%d' }}</h6>
     </a>
@@ -21,4 +21,4 @@
       </p>
     </div>
 </li>
-<hr>
+<hr class="item_excerpt">
