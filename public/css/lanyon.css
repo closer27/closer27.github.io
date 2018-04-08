@@ -33,10 +33,6 @@
  *
  * Update the foundational and global aspects of the page.
  */
-* {
-  margin: 0;
-  padding: 0;
-}
 
 /* Prevent scroll on narrow devices */
 html,
@@ -617,7 +613,7 @@ a.pagination-item:hover {
   background-color: #fff;
   border-radius: 3px;
   display: inline-block;
-  font-size: 11px;
+  font-size: 13px;
   margin: 0px 1px 3px 0px;
   padding: 2px 6px 2px;
   position: relative;
@@ -741,7 +737,13 @@ hr {
   color: #9a9a9a;
 }
 
-#cover {
+/* Home */
+#post-list {
+  margin: 0;
+  padding: 0;
+}
+
+.cover {
   margin-bottom: 2vw;
   padding: 0 100px;
   position: relative;
