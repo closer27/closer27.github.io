@@ -21,7 +21,7 @@ author:
 
 # Plugins
 plugins: [jekyll-paginate, jekyll-timeago]
-paginate: 5
+paginate: 10
 paginate_path: "/page/:num/"
 
 # Relative time
