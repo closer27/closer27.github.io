@@ -33,6 +33,10 @@
  *
  * Update the foundational and global aspects of the page.
  */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 /* Prevent scroll on narrow devices */
 html,
@@ -712,7 +716,7 @@ a.pagination-item:hover {
 }
 
 hr {
-   margin: 0.8rem 0 1.5rem 0;
+   margin: 0.8rem 0;
 }
 
 /* item */
@@ -737,7 +741,7 @@ hr {
 }
 
 #cover {
-  margin-bottom: 50px;
+  margin-bottom: 2vw;
   padding: 0 100px;
   position: relative;
   height: 320px;
