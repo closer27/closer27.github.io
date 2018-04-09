@@ -12,7 +12,7 @@ url:              http://closer27.github.io
 highlighter:      rouge
 encoding:         UTF-8
 timezone:         Asia/Seoul
-image:            '/assets/images/covers/home_cover.jpg'
+image:            'https://d.pr/i/ofB2rY+'
 future:           true
 
 author:
