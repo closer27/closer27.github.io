@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring AOP"
+title: "Spring 트랜잭션"
 date: 2017-08-10
 categories: backend
 tags: [backend, spring, aop]
@@ -16,7 +16,7 @@ comment: yes
 
 applicationContext.xml
 ``` xml
-<beans xmlns="...
+<beans xmlns="..."
        xmlns:tx="http://www.springframework.org/schema/tx"
        xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="...
