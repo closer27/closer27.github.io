@@ -11,9 +11,13 @@ layout: default
   <p>
     <span class="category">
       {% for category in page.categories %}
-      <a href="{{ site.baseurl }}/categories/{{ category }}" title="{{ category }}">
-        <i class="fa fa-folder-open-o" aria-hidden="true"></i>
-        {{ category }}</a>
+        <a href="{{ site.baseurl }}/categories/{{ category }}" title="{{ category }}">
+        {% for site_category in site.categories %}
+          {% if category == site_category.name %}
+            {{ site_category.title }}
+          {% endif %}
+        {% endfor %}
+        </a>
       {% endfor %}
     </span>
     <span>
