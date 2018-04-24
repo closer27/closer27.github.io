@@ -1,15 +1,13 @@
 ---
 layout: post
-title: "angular2 template에서 특정 element의 속성값 가져오기"
+title: "angular2 custom reuse strategy 사용"
 date: 2017-02-22
 categories: frontend
-tags: [angular, CustomReuseStrategy]
+tags: [angular, angular2, CustomReuseStrategy]
 comment: yes
 ---
 
-angular2 custom reuse strategy 사용
-
-앵귤러에서는 라우팅을 할 때 컴포넌트가 폐기되고 새로 초기화가 되면서 새로 로딩이 되게 된다. 이 경우 뒤로가기나 앞으로가기를 했을 때 기존의 브라우저 상태가 저장이 안되는데 이를 지원하게 하는 것이 reuse strategy인 것.
+앵귤러에서는 라우팅을 통해 페이지가 바뀔 때 컴포넌트가 폐기되고 새로 초기화가 되면서 새로 로딩이 되게 된다. 이 경우 뒤로가기나 앞으로가기를 했을 때 기존의 브라우저 상태가 저장이 안되는데 이를 지원하게 하는 것이 reuse strategy인 것.
 
 이를 구현하려면 몇가지 절차가 필요하다.
 
